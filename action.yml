@@ -1,6 +1,9 @@
 name: 'coursier-cache-action-test'
 description: 'coursier cache action test'
 author: 'Alexandre Archambault'
+branding:
+  icon: 'arrow-down'
+  color: 'white'
 inputs:
   root:
     required: false
