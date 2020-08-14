@@ -1,5 +1,5 @@
-name: 'coursier-cache-action'
-description: 'coursier cache action'
+name: 'coursier-cache-action-test'
+description: 'coursier cache action test'
 author: 'Alexandre Archambault'
 inputs:
   root:
