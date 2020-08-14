@@ -1,11 +1,13 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: 'coursier-cache-action'
+description: 'coursier cache action'
+author: 'Alexandre Archambault'
 inputs:
-  milliseconds: # change this
-    required: true
-    description: 'input description here'
-    default: 'default value if applicable'
+  root:
+    required: false
+    description: 'root directory containing build tool files'
+    default: '.'
 runs:
   using: 'node12'
-  main: 'dist/index.js'
+  main: 'dist/restore/index.js'
+  post: 'dist/save/index.js'
+  post-if: 'success()'
