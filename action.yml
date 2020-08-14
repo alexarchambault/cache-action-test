@@ -1,5 +1,5 @@
 name: 'coursier-cache-action-test'
-description: 'coursier cache action test'
+description: 'Restores and saves the coursier cache'
 author: 'Alexandre Archambault'
 branding:
   icon: 'arrow-down'
